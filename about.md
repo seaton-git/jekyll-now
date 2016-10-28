@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+王旭东（seaton） ： 前端工程师
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+热爱新技术，沉淀传统技术！
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[seatonwang@163.com](mailto:seatonwang@163.com)
