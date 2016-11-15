@@ -1,6 +1,6 @@
 ---
 layout: post
-title: window、DOM、BOM【摘自知乎】
+title: window、DOM、BOM
 ---
 
 # 概念
