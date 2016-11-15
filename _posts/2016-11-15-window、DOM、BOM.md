@@ -1,6 +1,6 @@
 ---
 layout: post
-title: window、DOM、BOM
+title: JavaScript中的window对象属于DOM还是BOM？【摘自知乎】
 ---
 
 # 概念
