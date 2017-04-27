@@ -13,7 +13,7 @@ $(function () {
             _html = "<div class='pop-body'>" +
                 "<img class='width-all block' src='./images/pop-top1.png' />" +
                 "<div class='bg-1 desc-1 '>" +
-                "<strong class='block text-center font-1 cor-2'>下载顾问工具包，查看全部精彩聊天内容！</strong>" +
+                "<strong class='block weight-500 text-center font-1 cor-2'>下载顾问工具包，查看全部精彩聊天内容！</strong>" +
                 "<p class='desc-2 text-center font-0 cor-1'>亲爱的，下载顾问工具包，使用美容顾问账号登录，更快更省流量的同时，即刻参与直播互动噢！</p>" +
                 "<div class='foot text-center'>" +
                 "<span class='no-down font-4 cor-8 J-no-download'>暂不下载</span><span class='font-4 cor-7 J-go-download'>立即前往下载</span>" +
@@ -22,7 +22,7 @@ $(function () {
             _html = "<div class='pop-body'>" +
                 "<img class='width-all block' src='./images/pop-top2.png' />" +
                 "<div class='bg-1 desc-1 '>" +
-                "<strong class='block text-center font-1 cor-2'>下载顾问工具包，即刻参与聊天活动！</strong>" +
+                "<strong class='block weight-500 text-center font-1 cor-2'>下载顾问工具包，即刻参与聊天活动！</strong>" +
                 "<p class='desc-2 text-center font-0 cor-1'>亲爱的，下载顾问工具包，使用美容顾问账号登录，更快更省流量的同时，即刻参与直播互动噢！</p>" +
                 "<div class='foot text-center'>" +
                 "<span class='no-down font-4 cor-8 J-no-download'>暂不下载</span><span class='font-4 cor-7 J-go-download'>立即前往下载</span>" +

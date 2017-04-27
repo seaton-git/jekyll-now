@@ -24,6 +24,8 @@ img {border:none;}
 .font-2{font-size: .8125rem;}
 .font-3{font-size: .4737rem;}
 .font-4{font-size: .9375rem;}
+.font-5{font-size: .6875rem;}
+.weight-500{font-weight: 500;}
 .bold{font-weight: bold;}
 .cor-0{color:#ffffff;}
 .cor-1{color: #666666;}
@@ -69,8 +71,8 @@ img {border:none;}
 .-m-live-page .comment-content{margin-top: 7px;}
 .-m-live-page .tool{position: fixed;left: 0;bottom: 0;right: 0;}
 .-m-live-page .input-comment{padding: 15px 10px;border-top: 1px solid #ebebeb;}
-.-m-live-page .input{width: 60%; padding: 10px 13px;margin-right:10px;border: none;outline: none;border-radius:20px;background-color: #f2f2f2;}
-.-m-live-page .send-comment{width:auto;height: 34px;vertical-align: middle;}
+.-m-live-page .input{width: 65%; padding: 5px 13px;margin-right:10px;border: none;outline: none;border-radius:20px;background-color: #f2f2f2;}
+.-m-live-page .send-comment{width:auto;height: 24px;margin-top:2px;vertical-align: middle;}
 .-m-live-page .download{padding: 8px;background-color: rgba(0,0,0,0.80);}
 .-m-live-page .close{width: 20px;height: 20px; position: absolute;right: 0;top: 0;}
 .-m-live-page .gift{width: 35px;height: 35px;}
