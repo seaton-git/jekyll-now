@@ -45,6 +45,7 @@ img {border:none;}
 .z-index-0{z-index: 1;}
 .z-index-1{z-index: 2;}
 
+.-m-live-page .no-move{position: fixed;left: 0;right: 0;top: 0;}
 .-m-live-page .label{width: auto;height: auto; position: absolute;top: 12px;left: 10px;border-radius: 4px;}
 .-m-live-page .label span{padding: 3px 5px;}
 .-m-live-page .label-text{border-radius: 4px 0 0 4px;}
@@ -52,14 +53,14 @@ img {border:none;}
 .-m-live-page .title-label{width: 3px;height: 1.2em;vertical-align: middle;border-radius: 0 2px 2px 0; margin-bottom: .06em;margin-right: 5px;}
 .-m-live-page .title-date{margin-left: 12px;}
 .-m-live-page .item{padding: 10px 0;border-bottom: 1px solid #e0e0e0;}
-.-m-live-page .item-img{width: 27%;height: auto;vertical-align: middle;}
-.-m-live-page .item-text{width: calc(73% - 8px);height: auto; float: right;padding-left: 8px;}
+.-m-live-page .item-img{width: 65px;height: 65px;vertical-align: middle;}
+.-m-live-page .item-text{width: calc(100% - 73px);height: auto; float: right;padding-left: 8px;}
 .-m-live-page .item-label{width: auto;height: auto;display: inline-block;border-radius: 0 4px 4px 0;padding: 2px 3px; position: absolute;top: 18px;left: 0;}
 .-m-live-page .break{padding: 15px 12px;}
 .-m-live-page .more{margin-top: 30px;padding-left:12px; }
 .-m-live-page .tabs{padding: 12px 2%;margin-bottom: 10px;}
 .-m-live-page .tab{width: 33%;display: inline-block;}
-.-m-live-page .tab-border{width:calc(33% - 4px);border-left: 2px solid #e0e0e0;border-right: 2px solid #e0e0e0;}
+.-m-live-page .tab-border{width:calc(33% - 4px);border-left: 1px solid #e0e0e0;border-right: 1px solid #e0e0e0;}
 .-m-live-page .tab-0{padding-top: 10px;}
 .-m-live-page .tab-1{padding: 0 10px 64px 10px;}
 .-m-live-page .comment-item{padding: 13px;margin-bottom: 10px;border-radius: 4px;}
@@ -74,7 +75,7 @@ img {border:none;}
 .-m-live-page .close{width: 30px;height: 30px; position: absolute;right: 0;top: 0;}
 .-m-live-page .gift{width: 35px;height: 35px;}
 .-m-live-page .desc-0{display: inline-block;vertical-align: top;margin-left: 10px;}
-.-m-live-page .btn-download{display: inline-block;padding:5px 5px;margin: 5px 20px 0 5px; border-radius: 3px; vertical-align: top;}
+.-m-live-page .btn-download{display: inline-block;padding:5px 5px;margin: 5px 18px 0 5px; border-radius: 3px; vertical-align: top;}
 .-m-live-page .pop-bg{position: fixed;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0,0,0,0.65);}
 .-m-live-page .pop-body{width:90%;margin: 30% auto 0 auto;}
 .-m-live-page .desc-1{padding-top: 30px;border-radius: 0 0 6px 6px;}
