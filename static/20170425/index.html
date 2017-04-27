@@ -8,13 +8,19 @@
     <meta name="format-detection" content="telephone=no"/>
     <title>直播</title>
     <link rel="stylesheet" href="./styles/style.css"/>
+    <script type="text/javascript">
+        function loadImg (e) {
+            var _height = document.querySelector(".no-move").clientHeight;
+            document.querySelector(".placeholder").style.height = _height + "px";
+        }
+    </script>
 </head>
 
 <body>
 <div class="-m-live-page touch-scroll">
     <div class="no-move">
         <div class="relative">
-            <img class="width-all block" src="images/top.png"/>
+            <img class="top-img width-all block" onload="loadImg(event)" src="images/top.png"/>
             <div class="label inline-block">
                 <span class="label-text float-left cor-0 font-0 bg-0">正在直播</span>
                 <span class="label-num float-left cor-1 font-0 bg-1">1800人观看</span>
@@ -22,7 +28,9 @@
         </div>
         <div class="tabs text-center font-none bg-1 relative cor-3">
             <label class="tab font-1 cor-7 J-switch-tab" data-tab="0">直播简介</label>
+            <label class="line-2"></label>
             <label class="tab font-1 J-switch-tab" data-tab="1">聊天室</label>
+            <label class="line-2"></label>
             <label class="tab font-1 J-switch-tab" data-tab="2">节目投票</label>
             <label class="line-1 bg-5 J-line"></label>
         </div>

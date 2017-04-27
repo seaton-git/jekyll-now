@@ -3,10 +3,6 @@
  */
 $(function () {
 
-    /* 设置高度 */
-    var _height = $(".no-move").height();
-    $(".placeholder").height(_height);
-
     function setPop (type) {
         var _html = "";
         if (type == 1) {
@@ -55,14 +51,14 @@ $(function () {
     });
 
     $(".J-download").click(function () { // 点击下载，激活下载窗口
-        setPop(1);
+        setPop(2);
     });
 
-    $("body").on("click", ".J-no-download", function () { // 点击暂不下载
+    $(".download-pop").on("click", ".J-no-download", function () { // 点击暂不下载
         $(".download-pop").empty().hide();
     });
 
-    $("body").on("click", ".J-go-download", function () { // 点击立即下载
+    $(".download-pop").on("click", ".J-go-download", function () { // 点击立即下载
         console.log("click the download");
         $(".download-pop").empty().hide();
     });
