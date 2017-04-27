@@ -40,7 +40,7 @@ img {border:none;}
 .bg-3{background-color: #26abff;}
 .bg-4{background-color: #7e8896;}
 .bg-5{background-color: #ea4b4b;}
-.line-0{height:1px;display: block;margin:15px 0 0 12px;background-color: #efefef;}
+.line-0{height:1px;display: block;margin:7px 0 0 12px;background-color: #efefef;}
 .line-1{width: 21%;height: 2px;border-radius: 4px;display: inline-block;position: absolute;left: 8%;bottom: 0;}
 .z-index-0{z-index: 1;}
 .z-index-1{z-index: 2;}
@@ -53,8 +53,8 @@ img {border:none;}
 .-m-live-page .title-label{width: 2px;height: 1.2em;vertical-align: middle;border-radius: 0 2px 2px 0; margin-bottom: .06em;margin-right: 5px;}
 .-m-live-page .title-date{margin-left: 12px;}
 .-m-live-page .item{padding: 10px 0;border-bottom: 1px solid #ebebeb;}
-.-m-live-page .item-img{width: 65px;height: 65px;vertical-align: middle;}
-.-m-live-page .item-text{width: calc(100% - 73px);height: auto; float: right;padding-left: 8px;}
+.-m-live-page .item-img{width: 60px;height: 60px;vertical-align: middle;}
+.-m-live-page .item-text{width: calc(100% - 68px);height: auto; float: right;padding-left: 8px;}
 .-m-live-page .item-label{width: auto;height: auto;display: inline-block;border-radius: 0 2px 2px 0;padding: 2px 3px; position: absolute;top: 18px;left: 0;}
 .-m-live-page .break{padding: 15px 12px;}
 .-m-live-page .more{margin-top: 30px;padding-left:12px; }
