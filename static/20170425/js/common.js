@@ -30,7 +30,7 @@ $(function () {
     $(".J-switch-tab").click(function () { // tab 切换
         var _tab = $(this).attr("data-tab");
         var _line = $(".J-line");
-        var _left = $(this).offset().left + ($(this).outerWidth() - _line.width()) / 2;
+        var _left = ($(this).offset().left - $(this).parent().offset().left) + ($(this).outerWidth() - _line.width()) / 2;
         if (_tab != 2) {
             _line.animate({left: _left}, "fast");
             $(this).addClass("cor-7").siblings().removeClass("cor-7");
