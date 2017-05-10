@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "../assets/images/icons/placeholder/menu_item.png",
+    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
     "original_price": 99.00,
     "actual_price": 69.00,
     "sales": 156,
@@ -10,5 +10,41 @@
     "ap_1": "",
     "ap_2": "",
     "ap_3": ""
-  }
+  },
+  {
+    "id": "1",
+    "title": "温碧泉防晒霜套装面部保湿喷雾隔离防晒乳户外全身防水紫外线男女",
+    "cover": "https://seaton-git.github.io/static/mall/goods/goods_1.png",
+    "original_price": 99.00,
+    "actual_price": 69.00,
+    "sales": 156,
+    "from": "淘宝",
+    "ap_1": "",
+    "ap_2": "",
+    "ap_3": ""
+  },
+  {
+    "id": "1",
+    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+    "cover": "https://seaton-git.github.io/static/mall/goods/goods_2.png",
+    "original_price": 99.00,
+    "actual_price": 69.00,
+    "sales": 156,
+    "from": "淘宝",
+    "ap_1": "",
+    "ap_2": "",
+    "ap_3": ""
+  },
+  {
+  "id": "1",
+  "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+  "cover": "https://seaton-git.github.io/static/mall/goods/goods_3.png",
+  "original_price": 99.00,
+  "actual_price": 69.00,
+  "sales": 156,
+  "from": "淘宝",
+  "ap_1": "",
+  "ap_2": "",
+  "ap_3": ""
+}
 ]
