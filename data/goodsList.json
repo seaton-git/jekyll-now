@@ -1,133 +1,125 @@
-/*
-* id：唯一编号
-* title: 标题
-* cover：封面图地址
-* original_price：原始价格
-* actual_price：券后价
-* sales：销量
-* from：来源
-* type：分类
-* vouchers_remain: 券剩余量
-*/
-[
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 156,
-    "from": "淘宝",
-    "type": "0",
-    "vouchers_remain": "12",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 13434,
-    "from": "淘宝",
-    "type": "1",
-    "vouchers_remain": "34",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 4545,
-    "from": "淘宝",
-    "type": "2",
-    "vouchers_remain": "234",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 32,
-    "from": "淘宝",
-    "type": "3",
-    "vouchers_remain": "45",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 14556,
-    "from": "淘宝",
-    "type": "4",
-    "vouchers_remain": "2",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 17656,
-    "from": "淘宝",
-    "type": "5",
-    "vouchers_remain": "45",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 11,
-    "from": "淘宝",
-    "type": "6",
-    "vouchers_remain": "56",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 1563,
-    "from": "淘宝",
-    "type": "7",
-    "vouchers_remain": "28",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 156,
-    "from": "淘宝",
-    "type": "8",
-    "vouchers_remain": "38",
-    "ap_2": ""
-  },
-  {
-    "id": "1",
-    "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
-    "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
-    "original_price": "99.00",
-    "actual_price": "69.00",
-    "sales": 134,
-    "from": "淘宝",
-    "type": "9",
-    "vouchers_remain": "39",
-    "ap_2": ""
-  }
-]
+{
+  "comment": "id：唯一编号/title: 标题/cover：封面图地址/original_price：原始价格/actual_price：券后价/sales：销量/from：来源/type：分类/vouchers_remain: 券剩余量",
+  "goods_list": [
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 156,
+      "from": "淘宝",
+      "type": "0",
+      "vouchers_remain": "12",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 13434,
+      "from": "淘宝",
+      "type": "1",
+      "vouchers_remain": "34",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 4545,
+      "from": "淘宝",
+      "type": "2",
+      "vouchers_remain": "234",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 32,
+      "from": "淘宝",
+      "type": "3",
+      "vouchers_remain": "45",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 14556,
+      "from": "淘宝",
+      "type": "4",
+      "vouchers_remain": "2",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 17656,
+      "from": "淘宝",
+      "type": "5",
+      "vouchers_remain": "45",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 11,
+      "from": "淘宝",
+      "type": "6",
+      "vouchers_remain": "56",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 1563,
+      "from": "淘宝",
+      "type": "7",
+      "vouchers_remain": "28",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 156,
+      "from": "淘宝",
+      "type": "8",
+      "vouchers_remain": "38",
+      "ap_2": ""
+    },
+    {
+      "id": "1",
+      "title": "夏季薄纯棉双层纱布月子服哺乳衣产妇长袖喂奶衣孕妇睡衣春夏女",
+      "cover": "https://seaton-git.github.io/static/mall/goods/goods_0.png",
+      "original_price": "99.00",
+      "actual_price": "69.00",
+      "sales": 134,
+      "from": "淘宝",
+      "type": "9",
+      "vouchers_remain": "39",
+      "ap_2": ""
+    }
+  ]
+}
