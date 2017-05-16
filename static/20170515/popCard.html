@@ -45,10 +45,9 @@
         <div class="card">
             <strong class="title f-3">玫琳凯事业机会介绍会介绍</strong> <!-- 礼券名称 -->
             <img class="width-all" src="./image/card_0.png" />
-            <img class="width-all J-receive" src="./image/card_1.png" />
+            <img class="width-all J-receive" data-receive="0" src="./image/card_1.png" /> <!-- card_1.png为“立即领取”， card_2.png为“已领取”, data-receive为领取状态 -->
             <img class="user-img block" src="./image/placeholder.jpg" /> <!-- 头像占位图 -->
-            <!-- 是否领取，默认显示，隐藏加上hidden -->
-            <img class="label" src="./image/label.png" />
+            <img class="label hidden" src="./image/label.png" /> <!-- 是否领取，默认显示，隐藏加上hidden -->
         </div>
         <div class="info">
             <img class="f-l info-img" src="" onerror="this.src='image/headImg@2x.png'" />
@@ -64,7 +63,9 @@
 <script type="text/javascript">
     window.onload = function () {
 
-        document.querySelector(".J-receive").onclick = function () { // 立即领取
+        document.querySelector(".J-receive").onclick = function (e) { // 立即领取 / 已领取
+            var _is_receive = e.target.getAttribute("data-receive");
+          console.log(_is_receive);
           console.log("a pick up");
         };
 
