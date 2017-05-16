@@ -15,31 +15,41 @@
         .-m-electronic-business-card{background-color: #ffffff;font-size: 0;padding: 10px;}
         .-m-electronic-business-card .block{display: block;}
         .-m-electronic-business-card .inline-block{display: inline-block;}
+        .-m-electronic-business-card .hidden{display: none;}
         .-m-electronic-business-card .width-all{width: 100%;}
         .-m-electronic-business-card .f-l{float: left;}
         .-m-electronic-business-card .f-0{font-size:.9375rem;color:#222222;}
         .-m-electronic-business-card .f-1{font-size: .75rem;color:#666666;}
+        .-m-electronic-business-card .f-2{font-size: 1rem;color: #ffffff;}
         .-m-electronic-business-card .card{position: relative;}
-        .-m-electronic-business-card .user-img{width: 22%;height: auto;border: 2px solid #ffffff; position: absolute;top: 12%;right: 4%;}
+        .-m-electronic-business-card .title{position: absolute;left: 4%;top:45%;}
+        .-m-electronic-business-card .label{width: 16%;height: auto; position: absolute;right: 3%;top: 41%;}
+        .-m-electronic-business-card .user-img{width: 22%;height: auto;border: 2px solid #ffffff; position: absolute;top: 12%;right: 6%;}
         .-m-electronic-business-card .info{height: 40px;padding: 10px;text-align: right;border: 1px solid #ebebeb;margin-top: 13px;}
         .-m-electronic-business-card .info-img{width: 40px;height: 40px;border-radius: 50%;}
         .-m-electronic-business-card .tell-phone{width: 30px;height: 30px;margin-top: 5px; vertical-align: middle;}
-        .-m-electronic-business-card .info-user{text-align: left;margin-left:6px;}
+        .-m-electronic-business-card .info-user{text-align: left;margin-left:10px;}
+        @media screen and (min-width: 750px){
+            .-m-electronic-business-card .f-2{font-size: 2rem;color: #ffffff;}
+        }
     </style>
 </head>
 <body>
 
 <div class="-m-electronic-business-card">
     <div class="card">
+        <strong class="title f-2">玫琳凯事业机会介绍会介绍</strong> <!-- 礼券名称 -->
         <img class="width-all" src="./image/card_0.png" />
-        <img class="width-all J-receive" src="./image/card_1.jpg" />
-        <img class="user-img block" src="./image/placeholder.jpg" />
+        <img class="width-all J-receive" src="./image/card_1.png" />
+        <img class="user-img block" src="./image/placeholder.jpg" /> <!-- 头像占位图 -->
+        <!-- 是否领取，默认显示，隐藏加上hidden -->
+        <img class="label" src="./image/label.png" />
     </div>
     <div class="info">
         <img class="f-l info-img" src="" onerror="this.src='image/headImg@2x.png'" />
         <div class="f-l info-user inline-block">
             <span class="f-0 block">唐可</span>
-            <span class="f-1 block -v-phone">170 9511 5186</span>
+            <span class="f-1 block -v-phone">130 6172 7937</span>
         </div>
         <img class="tell-phone J-tell-phone" src="image/call.png" />
     </div>
