@@ -54,8 +54,8 @@
             var _top = $(window).scrollTop();
             var _height = 0;
             img.each(function (index) {
-                if (_height - 1 >= _top) {
-                    $(".label").html(index + "/" + len);
+                if (_height + 202.5 + (index * 15) >= _top) {
+                    $(".label").html(index + 1 + "/" + len);
                     return false;
                 } else {
                     _height += $(this).outerHeight();
