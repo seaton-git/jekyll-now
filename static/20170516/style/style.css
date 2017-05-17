@@ -1,0 +1,60 @@
+/**
+ * style.css
+ *
+ * Global style file
+ */
+
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0; padding: 0; }
+html { width: 100%; height: 100%; overflow: auto; }
+body { min-height: 100%; color: #3E3E3E; font: 15px/1.5 PingFang SC, Microsoft YaHei, Heiti SC !important; }
+/* 全局样式 */
+img { border: 0 none; }
+.w-all { width: 100%; }
+.t-c { text-align: center; }
+.t-l { text-align: left; }
+.t-r { text-align: right; }
+.f-l { float: left; }
+.f-r { float: right; }
+.middle{vertical-align: middle;}
+.relative { position: relative; }
+.absolute{position: absolute;}
+.block { display: block; }
+.inline-block { display: inline-block; }
+.center { margin: 0 auto; }
+.margin-0{margin: 8px 0 25px 0 !important;}
+.margin-1{margin: 25px 0 0 0 !important;}
+.margin-2{margin-top:10px; }
+.padding-0{padding-bottom: 25px;}
+.line-height-0{line-height: 1.8;}
+.line-height-1{line-height: 1.4;}
+.line-height-2{line-height: 1.75;}
+.font-0 { font-size: .9375rem; }
+.font-1 { font-size: 1rem; }
+.font-2{font-size: .875rem;}
+.font-3{font-size: 1.125rem;}
+.cor-0{color: rgb(89, 89, 89);}
+.cor-1{color: #ffffff;}
+.cor-2{color:#FDA2A9;}
+.bg-0{background-color:rgb(253, 162, 169); }
+.bg-1{background-color: #ffffff;}
+
+/* 结束 */
+.-m-article-page { padding: 20px 15px 15px; position: relative; }
+.-m-article-page h2 { font-weight: 400; font-size: 24px; margin-bottom: 10px; }
+.-m-article-page .content { margin-top: 25px; }
+.-m-article-page .content > p, .-m-article-page .content > span { display: block; }
+.-m-article-page .content > img {width:100%;height: auto; display: block; margin: 26px auto; }
+/* index */
+.-m-index-page .user-info{width: 60%;}
+.-m-index-page .user{width: 25%;height: auto; border-radius: 100%;}
+.-m-index-page .title-0{display:inline-block;margin: 3rem auto 0 auto;background-color:#FFACAA;color:#595959;font-size: 1rem;}
+.-m-index-page .title-1{border-bottom: 1px dotted rgb(23, 23, 20);margin: 25px 0; }
+.-m-index-page .title-1 img{width: 12px;height: 12px; position: absolute;left: 0;right: 0;top: -5px;}
+.-m-index-page .pgh-0{padding: 20px;margin: 25px 3px;box-shadow: rgb(170, 170, 170) 0 0 4px 0; }
+.-m-index-page .label-0{width: 80%;height:5px;display: inline-block;float: left;margin: -25px 0 0 -20px; background-color: rgb(253, 162, 169); }
+.-m-index-page .pgh-1{padding: 20px 10px;background-color:rgb(243, 243, 243); }
+/* second */
+.-m-second-page .pgh-0{padding: 15px;background-color: rgb(255, 235, 240);}
+.-m-second-page .pgh-0>div{border: 1px solid #ffffff;padding: 5px 10px;}
+.-m-second-page .label-0{width: 0;display: inline-block;margin-top: 25px; border-top: .8rem solid rgb(245, 189, 209);border-left:.7rem solid transparent;border-right:.7rem solid transparent;}
+.-m-second-page .label-1{width: .8rem;height: .8rem;display: inline-block;border-left: 2px solid rgb(245, 189, 209);border-bottom: 2px solid rgb(245, 189, 209);transform: rotate(-45deg);}
