@@ -87,7 +87,7 @@ img {border:none;}
 .-m-web-live-page .desc-0{display: inline-block;vertical-align: top;margin-left: 10px;}
 .-m-web-live-page .btn-download{display: inline-block;padding:8px 12px;margin: 5px 50px 0 5px; border-radius: 3px; vertical-align: top;}
 .-m-web-live-page .pop-bg{width: 100%;margin:0 auto;position: fixed;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0,0,0,0.65);}
-.-m-web-live-page .pop-body{width:50%;margin: 10% auto 0 auto;}
+.-m-web-live-page .pop-body{width:50%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 .-m-web-live-page .desc-1{padding-top: 30px;border-radius: 0 0 6px 6px;}
 .-m-web-live-page .desc-2{padding: 22px 15px;}
 .-m-web-live-page .foot{border-top: 1px solid #ebebeb;}

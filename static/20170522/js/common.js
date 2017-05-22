@@ -3,6 +3,22 @@
  */
 $(function () {
 
+    /*
+    * 测试
+    *
+    *
+    * 使用
+    *
+    *
+    * 务必
+    *
+    * 删除
+    * */
+    for (var i = 0; i < 5; i++) {
+        $(".comment-item").clone().appendTo(".tab-1");
+    }
+
+
     function setPop (type) {
         var _html = "";
         if (type == 1) {
@@ -39,6 +55,8 @@ $(function () {
         _line.css("left", _left);
     }
     initTab();
+
+    $(".no-move-placeholder").height($(".top-img").height());
 
     $(".tabs-content").css("margin-bottom", $(".download").outerHeight());
 
