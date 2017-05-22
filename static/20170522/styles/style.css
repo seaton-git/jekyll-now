@@ -93,3 +93,9 @@ img {border:none;}
 .-m-web-live-page .foot{border-top: 1px solid #ebebeb;}
 .-m-web-live-page .foot span{width: calc(50% - 1px);height:45px;line-height: 45px;display: inline-block;}
 .-m-web-live-page .no-down{border-right: 1px solid #ebebeb;}
+
+/* 限制手机加载 */
+@media screen and (max-width: 750px) {
+    body .-m-web-live-page{display: none;}
+    .advice{padding: 40% 16px 0 16px; display: block;}
+}
