@@ -43,19 +43,6 @@ $(function () {
         $(".download-pop").html(_html).show();
     }
 
-    function initTab () { // 初始化tab的宽度和tab-bottom-line的位置
-        var _tab = $(".tabs .tab:visible");
-        var _width = 100 / _tab.length;
-        var _line_width = $(".line-2").length * 1;
-        _tab.css("width", "calc("+ _width +"% - "+ _line_width +"px)");
-
-        var _this = $(".J-switch-tab:first-child");
-        var _line = $(".J-line");
-        var _left = (_this.offset().left - _this.parent().offset().left) + (_this.width() - _line.width()) / 2;
-        _line.css("left", _left);
-    }
-    initTab();
-
     $(".no-move-placeholder").height($(".top-img").height());
 
     $(".tabs-content").css("margin-bottom", $(".download").outerHeight());
