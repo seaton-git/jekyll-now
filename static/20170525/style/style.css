@@ -1,5 +1,5 @@
 *{-webkit-tap-highlight-color: rgba(0,0,0,0);margin: 0;padding: 0;} /* 全局 */
-html{font: 20px/1.6875  PingFang SC,Microsoft YaHei,Heiti SC;} /* 全局字体大小，使用renm，设置根目录字体16px，整体行高1.6875 */
+html{font: 16px/1.6875  PingFang SC,Microsoft YaHei,Heiti SC;} /* 全局字体大小，使用renm，设置根目录字体16px，整体行高1.6875 */
 .h1{font-size: 1.4375rem;color: #333333;margin: 1.5625rem 0;} /* h1标签 */
 .h2{font-size: 1.3125rem;color: #333333;margin: 1.5625rem 0;} /* h2标签 */
 .h3{font-size: 1.1875rem;color: #333333;margin: 1.5625rem 0;} /* h3标签 */
