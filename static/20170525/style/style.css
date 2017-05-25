@@ -10,5 +10,5 @@ html{font: 16px/1.6875  PingFang SC,Microsoft YaHei,Heiti SC;} /* 全局字体�
 .align-right{text-align: right;} /* 字体右对齐，只适用块级元素 */
 .align-center{text-align: center;} /* 字体居中对齐，只适用块级元素 */
 .quote{border-left: 5px solid #b5b5b5;background-color: #f7f7f7;padding: 24px 19px;margin: 28px 0;} /* 引用 */
-.hr{color: #f0f0f0;} /* hr标签 */
+.hr{border: none; border-top:1px solid #f0f0f0;} /* hr标签 */
 .img{width: 100%;height: auto;display: block;margin: 20px 0;} /* img标签 */
