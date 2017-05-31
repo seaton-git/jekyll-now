@@ -64,7 +64,7 @@
 <script type="text/javascript">
     (function () {
         var unit = window.location.search.match(new RegExp("(\\?|&)unit=([^&]*)(&|$)"));
-        unit = decodeURIComponent(unit[2]);
+        unit = !unit ? "" : decodeURIComponent(unit[2]);
         if (unit === "pt") {
             document.querySelector("link").setAttribute("href", "./style/style_pt.css");
         }
