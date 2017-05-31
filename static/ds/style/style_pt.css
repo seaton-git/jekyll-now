@@ -1,0 +1,41 @@
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);margin: 0;padding: 0;} /* 全局 */
+html{font-size: 12pt;line-height: 1.6875; font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;}
+.title{font-size: 18pt;color: #444444;font-weight: bold;margin: 1rem 0 .6875rem;}
+.assist{font-size: 9pt;color: #dfe2e7;}
+.h1{font-size: 18pt;color: #444444;margin: 21pt 0 17pt;} /* h1标签 */
+.h2{font-size: 16pt;color: #444444;margin: 21pt 0 15pt;} /* h2标签 */
+.h3{font-size: 15pt;color: #444444;margin: 21pt 0 14pt;} /* h3标签 */
+.h4{font-size: 14pt;color: #444444;margin: 21pt 0 12pt;} /* h4标签 */
+.p{font-size: 13pt;color: #444444;margin: 12pt 0;} /* 普通p标签 */
+.indent-p{font-size: 13pt;color: #444444;text-indent: 26pt;margin: 12pt 0;} /* 首行缩进2个汉字的p标签 */
+.over-indent{padding-left: 26pt;font-size: 13pt;color: #444444;margin: 12pt 0;} /* 整段缩进2个汉字 */
+.align-right{text-align: right;} /* 字体右对齐，只适用块级元素 */
+.align-center{text-align: center;} /* 字体居中对齐，只适用块级元素 */
+.quote{border-left: 4pt solid #b5b5b5;background-color: #f7f7f7;color: #444444; padding: 18pt 15pt;margin: 12pt 0;} /* 引用 */
+.hr{border: none; border-top:1pt solid #f0f0f0;} /* hr标签 */
+.ul{padding-left: 13pt;margin: 12pt 0;} /* 列表标签 */
+.img{width: 100%;height: auto;display: block;margin: 15pt 0;} /* img标签 */
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 400px) {
+
+}
+
+@media screen and (min-width: 440px) {
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 640px) {
+
+}

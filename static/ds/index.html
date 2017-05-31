@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="format-detection" content="telephone=no"/>
     <title>SHOW</title>
-    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/style.css" />
     <style type="text/css">
         body{padding: 0 15px;} /* 仅为当前页面展示适用 */
     </style>
@@ -18,17 +18,17 @@
 <p class="assist">2017年05月09日  ·  Selin</p>
 <h1 class="h1">一级标题</h1>
 <p class="p">一级标题下的内容</p>
-<h1 class="h2">二级标题</h1>
+<h2 class="h2">二级标题</h2>
 <p class="p">二级标题下的内容</p>
-<h1 class="h3">三级标题</h1>
+<h3 class="h3">三级标题</h3>
 <p class="p">三级标题下的内容</p>
-<h1 class="h4">四级标题</h1>
+<h4 class="h4">四级标题</h4>
 <p class="p">四级标题下的内容</p>
 <img class="img" src="./image/show_01.jpg" />
 <h1 class="h1">一级标题</h1>
 <p class="p">普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进</p>
 <p class="p">普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进，普通段落，无缩进</p>
-<h1 class="h2">二级标题</h1>
+<h2 class="h2">二级标题</h2>
 <hr class="hr" />
 <p class="indent-p">首行缩进4个字符（2个汉字）段落，除首行缩进外，其余同普通段落一样，首行缩进段落，除首行缩进外，其余同普通段落一样，首行缩进段落，除首行缩进外，其余同普通段落一样，</p>
 <hr class="hr" />
@@ -61,4 +61,13 @@
     <li>有序项目</li>
 </ol>
 </body>
+<script type="text/javascript">
+    (function () {
+        var unit = window.location.search.match(new RegExp("(\\?|&)unit=([^&]*)(&|$)"));
+        unit = decodeURIComponent(unit[2]);
+        if (unit === "pt") {
+            document.querySelector("link").setAttribute("href", "./style/style_pt.css");
+        }
+    })();
+</script>
 </html>
