@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>爱Party活动签到</title>
+    <link rel="stylesheet" href="./style/style.css"/>
+</head>
+<body>
+<div class="-m-young">
+    <img class="all block" src="./images/head.jpg"/>
+    <div class="user-info">
+        <strong class="block cor-0 f-0">爱Party活动签到</strong>
+        <div class="info">
+            <img class="icon inline-block f-l" src="./images/coor.png"/>
+            <p class="text cor-0 f-1">上海市静安区南京西路1366号恒隆广场2期19楼培训教室B</p>
+        </div>
+        <div class="info">
+            <img class="icon inline-block f-l" src="./images/user.png"/>
+            <p class="text cor-0 f-1">活动主承办人 张岚岚</p>
+        </div>
+    </div>
+    <img class="all block" src="./images/line.jpg"/>
+    <form action="/" method="post">
+        <div class="row">
+            <span class="cor-1 f-0">请填写您的个人信息进行签到</span>
+        </div>
+        <div class="row">
+            <label class="cor-2 f-0 f-l" for="name">姓名</label>
+            <input type="text" id="name" class="inp f-0 -i-name" name="username" placeholder="请填写" />
+        </div>
+        <div class="row">
+            <label class="cor-2 f-0 f-l" for="tel">手机号码</label>
+            <input type="tel" id="tel" class="inp f-0 -i-tel" name="tel" placeholder="请填写" />
+        </div>
+        <span class="btn cor-0 f-0 inline-block t-c J-create-card">提交</span>
+    </form>
+    <img class="all" src="./images/bg.jpg" />
+</div>
+<script type="text/javascript">
+
+    var request = {
+        createXHR: function () { // 创建XHR
+            if (window.XMLHttpRequest) {
+                return new XMLHttpRequest();
+            } else {
+                return new ActiveObject('Micrsorf.XMLHttp');
+            }
+        },
+
+        post: function (url, data, callback) { // 发起post请求
+            var xhr = this.createXHR();
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200 || xhr.status == 304) {
+                    callback(JSON.parse(xhr.responseText));
+                }
+            };
+            xhr.send(data);
+        }
+    };
+
+    window.onload = function () {
+
+        document.querySelector(".J-create-card").onclick = function () { // 生成邀请卡
+
+            var _name = document.querySelector(".-i-name").value;
+            var _tel = document.querySelector(".-i-tel").value;
+
+            if (_name != "" && _tel != "") {
+                request.post("test.com", {username : _name, tel : _tel}, function (res) {
+                    // 接收返回值，执行后续操作
+                });
+            } else {
+                alert("请填写完整信息");
+            }
+
+        };
+    };
+</script>
+</body>
+</html>
