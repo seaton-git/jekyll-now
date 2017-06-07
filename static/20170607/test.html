@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>Canvas</title>
+    <style type="text/css">
+        *{margin: 0; padding: 0; }
+        /*body{text-align: center;}*/
+        input, img{display: block;margin: 0 auto;}
+        .fl{float: left}
+        .fr{float: right}
+        .clear{clear: both;}
+        .content{width: 100%;}
+        .header{width: 100%;height: 76px;background: #f7fcff;box-shadow: 0px 1px 3px rgba(21, 16, 52, 0.20);}
+        .hy-logo{width: 46px;height: 46px;padding: 15px 20px 15px 23px;}
+        .hy-logo img{width: 100%;}
+        .head-center{margin-top: 12px;}
+        .head-center .title{font-size: 17px;color: #6456bd;text-align: left;}
+        .head-center .subtitle{font-size: 15px;color: #999;margin-top: 5px;}
+        .download{width:73px;height:30px;margin-right: 15px;margin-top: 23px;text-align: center;}
+        .download-btn{display:block;width: 100%;height: 30px;font-size:15px;color: #fff;line-height: 30px;background: #6456bd;border-radius: 3px;}
+        .main{width: 92%;margin: 0 auto;padding-top: 30px;}
+        .experience{margin-bottom: 30px;}
+        .subject{font-size: 24px;color: #333;}
+        .date{font-size: 12px;color: #dadada;padding: 10px 0;}
+        .writing{font-size:16px;color: #383636;line-height: 30px;margin-bottom: 15px;}
+        .share{background: #ebf1f7;padding-bottom: 5px; }
+        .share .writer-head{font-size: 13px;color: #333;padding: 10px 4%;}
+        .share .writer-info{background: #fff;padding: 20px 0;}
+        .share .avatar{width: 76px;height: 76px;border-radius: 50%;background: red;margin: 0 auto;}
+        .share .writer-name{font-size: 15px;color: #333;text-align: center;padding: 15px 0 10px;}
+        .share .writer-title{font-size: 12px;color: #b3b3b3;text-align: center;padding-bottom: 15px;}
+        .share .contact{width: 200px;height: 40px;margin: 0 auto;background: #ccc;}
+        .contact .contact-btn{display: block;height:40px;background: url("btn_contact@1x.png")}
+        .comment-list{margin-bottom: 10px;}
+        .comment-head{height: 36px;border-bottom: 2px solid #f6f6f6;font-size: 14px;color: #6456bd;line-height: 36px;}
+        .comment-head .text{display: inline-block;padding:0 2px 0 0;  box-sizing: border-box;border-bottom: 2px solid #6456bd;margin-left: 4%;}
+        .text span{display: inline-block}
+        .comment-info{width: 92%;margin: 0 auto;border-bottom: 1px solid #f3f3f3;padding: 12px 0;}
+        .comment-info .item-head{width: 30px;height: 30px;border-radius:50%;background: #ccc;}
+        .item-head img{width: 100%;}
+        .comment-info .item-con{display: inline-block;width: calc( 100% - 30px );}
+        .comment-info .item-name{color: #476b9d;margin-left: 15px;font-size: 14px;margin-bottom: 15px;}
+        .comment-info .item-time{float: right;color: #929292;font-size: 10px;}
+        .comment-info .item-text{color: #333;margin-left: 15px;font-size: 14px;}
+    </style>
+</head>
+<body style="max-width: 750px;margin: 0 auto;">
+    <div class="content">
+        <div class="header">
+            <div class="fl hy-logo">
+                <img src="icon_logo@2x.png" />
+            </div>
+            <div class="head-center fl">
+                <div class="title">花氧</div>
+                <div class="subtitle">和你一起变美</div>
+            </div>
+            <div class="download fr">
+                <a class="download-btn">点击下载</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="experience">
+                <div class="subject">0580评测-维C精华，我的细纹杀手(2)</div>
+                <div class="date">
+                    <span>2017年05月09日</span>
+                    <span>.Selin</span>
+                </div>
+                <div class="writing">
+                    虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
+                    在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
+                </div>
+                <div class="writing">
+                    虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
+                    在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
+                </div>
+            </div>
+        </div>
+        <div class="share">
+            <div class="writer-head">分享者</div>
+            <div class="writer-info">
+                <div class="avatar"></div>
+                <div class="writer-name">连营</div>
+                <div class="writer-title">玫琳凯首席经销商</div>
+                <div class="contact">
+                    <a class="contact-btn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="comment-list">
+            <div class="comment-head">
+                <div class="text">评论&nbsp;&nbsp;<span class="fr">333</span></div>
+            </div>
+            <div class="comment-info">
+                <div class="item-info">
+                    <div class="item-head fl">
+                        <img src="" />
+                    </div>
+                    <div class="item-con fl">
+                        <div class="item-name">
+                            <span>张曼曼</span>
+                            <span class="item-time">38分钟前</span>
+                        </div>
+                        <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="comment-info">
+                <div class="item-info">
+                    <div class="item-head fl">
+                        <img src="" />
+                    </div>
+                    <div class="item-con fl">
+                        <div class="item-name">
+                            <span>张曼曼</span>
+                            <span class="item-time">38分钟前</span>
+                        </div>
+                        <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+
+
+</script>
+
+
+
+
+
+</html>
