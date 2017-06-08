@@ -8,156 +8,272 @@
     <meta name="format-detection" content="telephone=no"/>
     <title>Canvas</title>
     <style type="text/css">
-        html{font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;}
-        *{margin: 0; padding: 0; }
+        html { font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif; }
+        * { margin: 0; padding: 0; }
         /*body{text-align: center;}*/
-        input, img{display: block;margin: 0 auto;}
-        .fl{float: left}
-        .fr{float: right}
-        .clear{clear: both;}
-        .content{width: 100%;}
-        .header{width: 100%;height: 76px;background: #f7fcff;box-shadow: 0px 1px 3px rgba(21, 16, 52, 0.20);}
-        .hy-logo{width: 46px;height: 46px;padding: 15px 20px 15px 23px;}
-        .hy-logo img{width: 100%;}
-        .head-center{margin-top: 12px;}
-        .head-center .title{font-size: 17px;color: #6456bd;text-align: left;}
-        .head-center .subtitle{font-size: 15px;color: #999;margin-top: 5px;}
-        .download{width:73px;height:30px;margin-right: 15px;margin-top: 23px;text-align: center;}
-        .download-btn{display:block;width: 100%;height: 30px;font-size:15px;color: #fff;line-height: 30px;background: #6456bd;border-radius: 3px;}
-        .main{width: 92%;margin: 0 auto;padding-top: 30px;}
-        .experience{margin-bottom: 30px;}
-        .subject{font-size: 24px;color: #333;}
-        .date{font-size: 12px;color: #dadada;padding: 10px 0;}
-        .writing{font-size:16px;color: #383636;line-height: 30px;margin-bottom: 15px;}
-        .share{background: #ebf1f7;padding-bottom: 5px; }
-        .share .writer-head{font-size: 13px;color: #333;padding: 10px 4%;}
-        .share .writer-info{background: #fff;padding: 20px 0;}
-        .share .avatar{width: 76px;height: 76px;border-radius: 50%;background: red;margin: 0 auto;}
-        .share .writer-name{font-size: 15px;color: #333;text-align: center;padding: 15px 0 10px;}
-        .share .writer-title{font-size: 12px;color: #b3b3b3;text-align: center;padding-bottom: 15px;}
-        .share .contact{width: 200px;height: 40px;margin: 0 auto;background: #fff;}
-        .contact .contact-btn{display: block;height:40px;background: url("btn@2x.png") 100% 100%;background-size: cover;}
-        .comment-list{margin-bottom: 10px;}
-        .comment-head{height: 36px;border-bottom: 2px solid #f6f6f6;font-size: 14px;color: #6456bd;line-height: 36px;}
-        .comment-head .text{display: inline-block;padding:0 2px 0 0;  box-sizing: border-box;border-bottom: 2px solid #6456bd;margin-left: 4%;}
-        .text span{display: inline-block}
-        .comment-info{width: 92%;margin: 0 auto;border-bottom: 1px solid #f3f3f3;padding: 12px 0;}
-        .comment-info .item-head{width: 30px;height: 30px;border-radius:50%;background: #ccc;}
-        .item-head img{width: 100%;}
-        .comment-info .item-con{display: inline-block;width: calc( 100% - 30px );margin-top: 5px;}
-        .comment-info .item-name{color: #476b9d;margin-left: 15px;font-size: 14px;margin-bottom: 10px;}
-        .comment-info .item-time{float: right;color: #929292;font-size: 10px;margin-top: 2px;}
-        .comment-info .item-text{color: #333;margin-left: 15px;font-size: 14px;}
-        .comment-info .from-comment{width: calc(100% - 21px);margin:0 0 10px 15px;padding: 5px 5px; background-color: #ebf1f7;}
-        .comment-info .from-name{color: #476b9d;font-size: 12px;}
-        .comment-info .comment-text{color: #818588; font-size: 12px;display: inline;}
+        input, img { display: block; margin: 0 auto; }
+        .fl { float: left }
+        .fr { float: right }
+        .clear { clear: both; }
+        .content { width: 100%; }
+        .header { width: 100%; height: 76px; background: #F7FCFF; box-shadow: 0px 1px 3px rgba(21, 16, 52, 0.20); }
+        .hy-logo { width: 46px; height: 46px; padding: 15px 20px 15px 23px; }
+        .hy-logo img { width: 100%; }
+        .head-center { margin-top: 12px; }
+        .head-center .title { font-size: 17px; color: #6456BD; text-align: left; }
+        .head-center .subtitle { font-size: 15px; color: #999999; margin-top: 5px; }
+        .download { width: 73px; height: 30px; margin-right: 15px; margin-top: 23px; text-align: center; }
+        .download-btn { display: block; width: 100%; height: 30px; font-size: 15px; color: #FFFFFF; line-height: 30px; background: #6456BD; border-radius: 3px; }
+        .main { width: 92%; margin: 0 auto; padding-top: 30px; }
+        .experience { margin-bottom: 30px; }
+        .subject { font-size: 24px; color: #333333; }
+        .date { font-size: 12px; color: #DADADA; padding: 10px 0; }
+        .writing { font-size: 16px; color: #383636; line-height: 30px; margin-bottom: 15px; }
+        .share { background: #EBF1F7; padding-bottom: 5px; }
+        .share .writer-head { font-size: 13px; color: #333333; padding: 10px 4%; }
+        .share .writer-info { background: #FFFFFF; padding: 20px 0; }
+        .share .avatar { width: 76px; height: 76px; border-radius: 50%; background: red; margin: 0 auto; }
+        .share .writer-name { font-size: 15px; color: #333333; text-align: center; padding: 15px 0 10px; }
+        .share .writer-title { font-size: 12px; color: #B3B3B3; text-align: center; padding-bottom: 15px; }
+        .share .contact { width: 200px; height: 40px; margin: 0 auto; background: #FFFFFF; }
+        .contact .contact-btn { display: block; height: 40px; background: url("btn@2x.png") 100% 100%; background-size: cover; }
+        .comment-list { margin-bottom: 10px; }
+        .comment-head { height: 36px; border-bottom: 2px solid #F6F6F6; font-size: 14px; color: #6456BD; line-height: 36px; }
+        .comment-head .text { display: inline-block; padding: 0 2px 0 0; box-sizing: border-box; border-bottom: 2px solid #6456BD; margin-left: 4%; }
+        .text span { display: inline-block }
+        .comment-info { width: 92%; margin: 0 auto; border-bottom: 1px solid #F3F3F3; padding: 12px 0; }
+        .comment-info .item-head { width: 30px; height: 30px; border-radius: 50%; background: #CCCCCC; }
+        .item-head img { width: 100%; }
+        .comment-info .item-con { display: inline-block; width: calc(100% - 30px); margin-top: 5px; }
+        .comment-info .item-name { color: #476B9D; margin-left: 15px; font-size: 14px; margin-bottom: 10px; }
+        .comment-info .item-time { float: right; color: #929292; font-size: 10px; margin-top: 2px; }
+        .comment-info .item-text { color: #333333; margin-left: 15px; font-size: 14px; }
+        .comment-info .from-comment { width: calc(100% - 21px); margin: 0 0 10px 15px; padding: 5px 5px; background-color: #EBF1F7; }
+        .comment-info .from-name { color: #476B9D; font-size: 12px; }
+        .comment-info .comment-text { color: #818588; font-size: 12px; display: inline; }
+        /* 正在载入 */
+        .loading{margin: 14px 0;text-align: center;}
+        .spinner {
+            width: 15px;
+            height: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        .container1 > div, .container2 > div, .container3 > div {
+            width: 4px;
+            height: 4px;
+            background-color: #6456bd;
+            border-radius: 100%;
+            position: absolute;
+            -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+            animation: bouncedelay 1.2s infinite ease-in-out;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        .spinner .spinner-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .container2 {
+            -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+        }
+        .container3 {
+            -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+        }
+        .circle1 { top: 0; left: 0; }
+        .circle2 { top: 0; right: 0; }
+        .circle3 { right: 0; bottom: 0; }
+        .circle4 { left: 0; bottom: 0; }
+        .container2 .circle1 {
+            -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s;
+        }
+        .container3 .circle1 {
+            -webkit-animation-delay: -1.0s;
+            animation-delay: -1.0s;
+        }
+        .container1 .circle2 {
+            -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s;
+        }
+        .container2 .circle2 {
+            -webkit-animation-delay: -0.8s;
+            animation-delay: -0.8s;
+        }
+        .container3 .circle2 {
+            -webkit-animation-delay: -0.7s;
+            animation-delay: -0.7s;
+        }
+        .container1 .circle3 {
+            -webkit-animation-delay: -0.6s;
+            animation-delay: -0.6s;
+        }
+        .container2 .circle3 {
+            -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+        }
+        .container3 .circle3 {
+            -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s;
+        }
+        .container1 .circle4 {
+            -webkit-animation-delay: -0.3s;
+            animation-delay: -0.3s;
+        }
+        .container2 .circle4 {
+            -webkit-animation-delay: -0.2s;
+            animation-delay: -0.2s;
+        }
+        .container3 .circle4 {
+            -webkit-animation-delay: -0.1s;
+            animation-delay: -0.1s;
+        }
+        @-webkit-keyframes bouncedelay {
+            0%, 80%, 100% { -webkit-transform: scale(0.0) }
+            40% { -webkit-transform: scale(1.0) }
+        }
+        @keyframes bouncedelay {
+            0%, 80%, 100% {
+                transform: scale(0.0);
+                -webkit-transform: scale(0.0);
+            }
+            40% {
+                transform: scale(1.0);
+                -webkit-transform: scale(1.0);
+            }
+        }
+        .load-text{width: 60px;font-size: 14px;color: #888888;vertical-align: top;margin-left: 8px;}
     </style>
 </head>
 <body style="max-width: 750px;margin: 0 auto;">
-    <div class="content">
-        <div class="header">
-            <div class="fl hy-logo">
-                <img src="icon_logo@2x.png" />
-            </div>
-            <div class="head-center fl">
-                <div class="title">花氧</div>
-                <div class="subtitle">和你一起变美</div>
-            </div>
-            <div class="download fr">
-                <a class="download-btn">点击下载</a>
-            </div>
+<div class="content">
+    <div class="header">
+        <div class="fl hy-logo">
+            <img src="icon_logo@2x.png"/>
         </div>
-        <div class="main">
-            <div class="experience">
-                <div class="subject">0580评测-维C精华，我的细纹杀手(2)</div>
-                <div class="date">
-                    <span>2017年05月09日</span>
-                    <span>· Selin</span>
-                </div>
-                <div class="writing">
-                    虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
-                    在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
-                </div>
-                <div class="writing">
-                    虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
-                    在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
-                </div>
-            </div>
+        <div class="head-center fl">
+            <div class="title">花氧</div>
+            <div class="subtitle">和你一起变美</div>
         </div>
-        <div class="share">
-            <div class="writer-head">分享者</div>
-            <div class="writer-info">
-                <div class="avatar"></div>
-                <div class="writer-name">连营</div>
-                <div class="writer-title">玫琳凯首席经销商</div>
-                <div class="contact">
-                    <a class="contact-btn"></a>
-                </div>
-            </div>
+        <div class="download fr">
+            <a class="download-btn">点击下载</a>
         </div>
-        <div class="comment-list">
-            <div class="comment-head">
-                <div class="text">评论&nbsp;&nbsp;<span class="fr">333</span></div>
+    </div>
+    <div class="main">
+        <div class="experience">
+            <div class="subject">0580评测-维C精华，我的细纹杀手(2)</div>
+            <div class="date">
+                <span>2017年05月09日</span>
+                <span>· Selin</span>
             </div>
-            <div class="comment-info">
-                <div class="item-info">
-                    <div class="item-head fl">
-                        <img src="" />
-                    </div>
-                    <div class="item-con fl">
-                        <div class="item-name">
-                            <span>张曼曼</span>
-                            <span class="item-time">38分钟前</span>
-                        </div>
-                        <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+            <div class="writing">
+                虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
+                在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
             </div>
-            <div class="comment-info">
-                <div class="item-info">
-                    <div class="item-head fl">
-                        <img src="" />
-                    </div>
-                    <div class="item-con fl">
-                        <div class="item-name">
-                            <span>谢芳</span>
-                            <span class="item-time">38分钟前</span>
-                        </div>
-                        <div class="from-comment">
-                            <span class="from-name">张曼曼：</span>
-                            <p class="comment-text">时光只解催人老，不信多情，长恨离亭，泪滴春衫酒易醒</p>
-                        </div>
-                        <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-            <div class="comment-info">
-                <div class="item-info">
-                    <div class="item-head fl">
-                        <img src="" />
-                    </div>
-                    <div class="item-con fl">
-                        <div class="item-name">
-                            <span>张曼曼</span>
-                            <span class="item-time">38分钟前</span>
-                        </div>
-                        <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+            <div class="writing">
+                虽然没有完全遵循 MVVM 模式， Vue 的设计无疑受到了它的启发。因此在文档中经常会使用 vm (ViewModel 的简称) 这个变量名表示 Vue 实例。
+                在实例化 Vue 时，需要传入一个选项对象，它可以包含数据、模板、挂载元素、方法、生命周期钩子等选项。全部的选项可以在 API 文档中查看。
             </div>
         </div>
     </div>
+    <div class="share">
+        <div class="writer-head">分享者</div>
+        <div class="writer-info">
+            <div class="avatar"></div>
+            <div class="writer-name">连营</div>
+            <div class="writer-title">玫琳凯首席经销商</div>
+            <div class="contact">
+                <a class="contact-btn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="comment-list">
+        <div class="comment-head">
+            <div class="text">评论&nbsp;&nbsp;<span class="fr">333</span></div>
+        </div>
+        <div class="comment-info">
+            <div class="item-info">
+                <div class="item-head fl">
+                    <img src=""/>
+                </div>
+                <div class="item-con fl">
+                    <div class="item-name">
+                        <span>张曼曼</span>
+                        <span class="item-time">38分钟前</span>
+                    </div>
+                    <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="comment-info">
+            <div class="item-info">
+                <div class="item-head fl">
+                    <img src=""/>
+                </div>
+                <div class="item-con fl">
+                    <div class="item-name">
+                        <span>谢芳</span>
+                        <span class="item-time">38分钟前</span>
+                    </div>
+                    <div class="from-comment">
+                        <span class="from-name">张曼曼：</span>
+                        <p class="comment-text">时光只解催人老，不信多情，长恨离亭，泪滴春衫酒易醒</p>
+                    </div>
+                    <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="comment-info">
+            <div class="item-info">
+                <div class="item-head fl">
+                    <img src=""/>
+                </div>
+                <div class="item-con fl">
+                    <div class="item-name">
+                        <span>张曼曼</span>
+                        <span class="item-time">38分钟前</span>
+                    </div>
+                    <div class="item-text">很有帮助很有帮助很有帮助很有帮助很有帮助很有帮助</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- 正在载入 -->
+        <div class="loading">
+            <div class="spinner">
+                <div class="spinner-container container1">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                </div>
+                <div class="spinner-container container2">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                </div>
+                <div class="spinner-container container3">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                </div>
+            </div>
+            <span class="load-text">正在载入</span>
+        </div>
+    </div>
+</div>
 </body>
 <script type="text/javascript">
 
 
 </script>
-
-
-
 
 
 </html>
