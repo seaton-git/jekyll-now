@@ -1,0 +1,143 @@
+{
+  "sortList": [
+    {
+      "id": 0,
+      "type": 0,
+      "text": "热搜推荐",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "手机数码",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "女装内衣",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "男装内衣",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "家用电器",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "鞋靴箱包",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "运动户外",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "电脑办公",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "个护化妆",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "家具建材",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "家居家纺",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "母婴童装",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "生活美食",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "酒水饮料",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "钟表奢品",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "汽车用品",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "医药保健",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "计生情趣",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "珠宝饰品",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "生鲜果蔬",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "图书音像",
+      "complete": 0
+    },{
+      "id": 0,
+      "type": 0,
+      "text": "宠物园艺",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "全球购",
+      "complete": 0
+    },
+    {
+      "id": 0,
+      "type": 0,
+      "text": "拍卖",
+      "complete": 0
+    }
+  ]
+}
+
+export default CFG
