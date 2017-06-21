@@ -10,22 +10,22 @@
     <style type="text/css">
         * { margin: 0; padding: 0; }
         html { background-color: #000000; font-size: 16px; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif; }
-        .-m-second-page .logo, .-m-second-page .video-first { width: 100%; height: auto; display: block; }
+        .-m-second-page .logo, .-m-second-page .cover { width: 100%; height: auto; display: block; }
         .-m-second-page .-m-video { position: relative; }
-        .-m-second-page .play-btn { width: 16%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+        .-m-second-page .media{position: static;left: 0;top: 0;}
+        .-m-second-page .play-btn { width: 55px;height: 55px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
         .-m-second-page .title { padding: 15px 0 0 10px; }
         .-m-second-page .title strong { font-size: .9375rem; color: #FFFFFF; display: block; }
         .-m-second-page .date { font-size: .75rem; color: #999999; }
-        .-m-second-page video { z-index: 1; }
-        .-m-second-page .play-btn { z-index: 2; }
+        .-m-second-page video { z-index: -1; }
+        .-m-second-page .play-btn, .-m-second-page .cover { z-index: 1; }
     </style>
 </head>
 <body>
 <div class="-m-second-page">
     <img class="logo" src="./image/01.png"/>
     <div class="-m-video">
-        <img id="control" class="play-btn" src="./image/play-btn.png"/>
-        <video id="media"
+        <video id="media" class="media"
                src="http://61.156.196.107/xdispatch/video.marykay.com.cn/eshowcase/flipchart-print-shiyeziyuan0701.mp4"
                width="100%" height="auto" poster="./image/cover.jpg"></video>
     </div>
@@ -37,8 +37,9 @@
 <script type="text/javascript">
     window.onload = function () {
         var media = document.querySelector("#media");
-
         var btn_control = document.querySelector("#control");
+        var cover = document.querySelector(".cover");
+
         btn_control.onclick = function () {
             if (media.paused) {
                 btn_control.style.display = "none";
