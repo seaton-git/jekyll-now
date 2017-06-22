@@ -9,46 +9,23 @@
     <title>成功女神分享</title>
     <style type="text/css">
         * { margin: 0; padding: 0; }
-        html {background-color: #ebf1f7; font-size: 16px; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif; }
-        .-m-index-page .banner{width: 100%;height: auto;display: block;}
-        .-m-index-page .list{margin-top: 5px;background-color: #ffffff;padding: 0 12px;}
-        .-m-index-page .item{padding: 25px 3px;border-bottom: .5px solid #d8d8d8;}
-        .-m-index-page .item:last-child{border: none;}
-        .-m-index-page .icon-video{width: 30px;height: 30px;float: left;}
-        .-m-index-page .info{padding-left: 40px;margin-top: .1875rem;}
-        .-m-index-page .title{font-size:1.0625rem;color: #333333;font-weight: 400;}
-        .-m-index-page .duration{font-size: .875rem;color:#999999;margin-top: 8px;}
-        @media screen and (min-width: 320px) {
-            html {font-size: 14px;}
-        }
-
-        @media screen and (min-width: 360px) {
-            html {font-size: 16px;}
-        }
-
-        @media screen and (min-width: 400px) {
-            html {font-size: 18px;}
-        }
-
-        @media screen and (min-width: 440px) {
-            html {font-size: 20px;}
-        }
-
-        @media screen and (min-width: 480px) {
-            html {font-size: 22px;}
-        }
-
-        @media screen and (min-width: 640px) {
-            html {font-size: 28px;}
-        }
+        html { background-color: #EBF1F7; font-size: 16px; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif; }
+        .-m-index-page .banner { width: 100%; height: auto; display: block; }
+        .-m-index-page .list { margin-top: 5px; background-color: #FFFFFF; padding: 0 0.32rem; }
+        .-m-index-page .item { padding: 0.666667rem 0.08rem; border-bottom: 1px solid #D8D8D8; }
+        .-m-index-page .item:last-child { border: none; }
+        .-m-index-page .icon-video { width: 0.8rem; height: 0.8rem; float: left; }
+        .-m-index-page .info { padding-left: 1.066667rem; margin-top: 3px; }
+        .-m-index-page .title { font-size: 0.453333rem; color: #333333; font-weight: 400; }
+        .-m-index-page .duration { font-size: 0.373333rem; color: #999999; margin-top: 0.213333rem; }
     </style>
 </head>
 <body>
 <div class="-m-index-page">
-    <img class="banner" src="./image/banner@2x.png" />
+    <img class="banner" src="./image/banner@2x.png"/>
     <div class="list">
         <div class="item">
-            <img class="icon-video" src="./image/icon_video@2x.png" />
+            <img class="icon-video" src="./image/icon_video@2x.png"/>
             <div class="info">
                 <p class="title">你不得不听女神与业务的关系，我也不知道什么关系，我测试的</p>
                 <p class="duration">时长 00:30:00</p>
@@ -57,6 +34,28 @@
     </div>
 </div>
 <script type="text/javascript">
+
+    (function () {
+        var dpr, rem, scale;
+        var docEl = document.documentElement;
+        var fontEl = document.createElement('style');
+        var metaEl = document.querySelector('meta[name="viewport"]');
+
+        dpr = window.devicePixelRatio || 1;
+        rem = docEl.clientWidth * dpr / 10;
+        scale = 1 / dpr;
+
+        // 设置viewport，进行缩放，达到高清效果
+        metaEl.setAttribute('content', 'width=' + dpr * docEl.clientWidth + ',initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale + ',user-scalable=no');
+
+        // 设置data-dpr属性，留作的css hack之用
+        docEl.setAttribute('data-dpr', dpr);
+
+        // 动态写入样式
+        docEl.firstElementChild.appendChild(fontEl);
+        fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';
+    })();
+
 
     /* 初始化代码，请删除， 开始 */
     var item = document.querySelector(".list").innerHTML;
@@ -73,13 +72,13 @@
     /* 初始化代码，请删除，结束 */
 
     window.onscroll = function () { // 页面滚动到底部，自动加载数据
-      var s = document.documentElement.scrollTop || document.body.scrollTop;
-      var w = document.documentElement.clientHeight;
-      var d = document.documentElement.offsetHeight;
+        var s = document.documentElement.scrollTop || document.body.scrollTop;
+        var w = document.documentElement.clientHeight;
+        var d = document.documentElement.offsetHeight;
 
-      if (d - (s + w) === 0) {
-          loadMore();
-      }
+        if (d - (s + w) === 0) {
+            loadMore();
+        }
     };
 
 </script>
