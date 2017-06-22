@@ -11,11 +11,11 @@
         * { margin: 0; padding: 0; }
         html { background-color: #EBF1F7; font-size: 16px; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif; }
         .-m-index-page .banner { width: 100%; height: auto; display: block; }
-        .-m-index-page .list { margin-top: 5px; background-color: #FFFFFF; padding: 0 0.32rem; }
+        .-m-index-page .list { margin-top: 0.133333rem; background-color: #FFFFFF; padding: 0 0.32rem; }
         .-m-index-page .item { padding: 0.666667rem 0.08rem; border-bottom: 1px solid #D8D8D8; }
         .-m-index-page .item:last-child { border: none; }
         .-m-index-page .icon-video { width: 0.8rem; height: 0.8rem; float: left; }
-        .-m-index-page .info { padding-left: 1.066667rem; margin-top: 3px; }
+        .-m-index-page .info { padding-left: 1.066667rem; margin-top: 0.04rem; }
         .-m-index-page .title { font-size: 0.453333rem; color: #333333; font-weight: 400; }
         .-m-index-page .duration { font-size: 0.373333rem; color: #999999; margin-top: 0.213333rem; }
     </style>
@@ -35,6 +35,43 @@
 </div>
 <script type="text/javascript" src="./js/initFont.min.js"></script>
 <script type="text/javascript">
+
+/*    (function () {
+        var dpr, rem, scale;
+        var docEl = document.documentElement;
+        var fontEl = document.createElement('style');
+        var metaEl = document.querySelector('meta[name="viewport"]');
+
+        fontEl.id = '__fontEl_id';
+
+        dpr = window.devicePixelRatio || 1;
+        rem = docEl.clientWidth * dpr / 10;
+        scale = 1 / dpr;
+
+        // 设置viewport，进行缩放，达到高清效果
+        metaEl.setAttribute('content', 'width=' + dpr * docEl.clientWidth + ',initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale + ',user-scalable=no');
+
+        // 设置data-dpr属性，留作的css hack之用
+        docEl.setAttribute('data-dpr', dpr);
+
+        // 动态写入样式
+        docEl.firstElementChild.appendChild(fontEl);
+
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+        ) {
+            fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';
+        }
+        else {
+            fontEl.innerHTML = 'html{font-size:' + rem / 2 + 'px!important;}';
+        }
+    })();*/
+
 
     /* 初始化代码，请删除， 开始 */
     var item = document.querySelector(".list").innerHTML;
