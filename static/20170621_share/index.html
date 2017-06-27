@@ -14,10 +14,10 @@
         .-m-index-page .list { margin-top: 0.3125rem; background-color: #FFFFFF; padding: 0 0.75rem; }
         .-m-index-page .item { padding: 1.5625rem 0.1875rem; border-bottom: 1px solid #D8D8D8; }
         .-m-index-page .item:last-child { border: none; }
-        .-m-index-page .icon-video { width: 1.875rem; height: 1.875rem; float: left; }
-        .-m-index-page .info { padding-left: 2.5rem; margin-top: 0.200625rem; }
-        .-m-index-page .title { font-size: 1.0625rem; color: #333333; font-weight: 400; }
-        .-m-index-page .duration { font-size: 0.875rem; color: #999999; margin-top: 0.5rem; }
+        .-m-index-page .icon-video { width: 1.875rem; height: 1.875rem;position: absolute;left:0.9375rem;top: 50%;transform: translate(-50%, -50%);}
+        .-m-index-page .info {font-size: 0;vertical-align: middle;position: relative;}
+        .-m-index-page .title {margin-left: 2.5rem; font-size: 1.0625rem;display: inline-block; color: #333333; font-weight: 400; }
+        .-m-index-page .duration { font-size: 0.875rem; color: #999999; margin: 0.5rem 0 0 2.5rem; }
         @media screen and (min-width: 320px) {
             html {font-size: 14px;}
         }
@@ -43,11 +43,18 @@
     <img class="banner" src="./image/banner@2x.png"/>
     <div class="list">
         <div class="item">
-            <img class="icon-video" src="./image/icon_video@2x.png"/>
             <div class="info">
+                <img class="icon-video" src="./image/icon_video@2x.png"/>
                 <p class="title">你不得不听女神与业务的关系，我也不知道什么关系，我测试的</p>
-                <p class="duration">时长 00:30:00</p>
             </div>
+            <p class="duration">时长 00:30:00</p>
+        </div>
+        <div class="item">
+            <div class="info">
+                <img class="icon-video" src="./image/icon_video@2x.png"/>
+                <p class="title">你不得不听女神与业务的关系</p>
+            </div>
+            <p class="duration">时长 00:30:00</p>
         </div>
     </div>
 </div>
