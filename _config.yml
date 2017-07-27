@@ -1,11 +1,12 @@
 # Site settings
 title: Seaton Blog
+author: Seaton
 SEOTitle: 王旭东的博客 | Seaton Blog
 header-img: img/home-bg.jpg
 email: seatonwang@163.com
-description: ""
-keyword: ""
-url: "http://seaton.me"              # your host, for absolute URL
+description: "前端，Web，SPA | @Seaton王旭东的个人博客"
+keyword: "王旭东，Seaton，Seaton王旭东，seaton-git，王旭东的博客，Seaton Blog，博客，个人网站，互联网，前端"
+url: "http://seaton.wang"              # your host, for absolute URL
 #baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -62,13 +63,13 @@ kramdown:
 #ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: seaton.me
+#ga_domain: seaton.wang
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "没什么说的"
+sidebar-about-description: "社会主义接班人"
 sidebar-avatar: /img/avatar-seaton.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
