@@ -3,11 +3,12 @@ title: Seaton Blog
 author: Seaton
 SEOTitle: 王旭东的博客 | Seaton Blog
 header-img: img/home-bg.jpg
+post-img: img/post-bg.jpg
 email: seatonwang@163.com
 description: "前端，Web，SPA | @Seaton王旭东的个人博客"
 keyword: "王旭东，Seaton，Seaton王旭东，seaton-git，王旭东的博客，Seaton Blog，博客，个人网站，互联网，前端"
 url: "http://seaton.wang"              # your host, for absolute URL
-baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+#baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 

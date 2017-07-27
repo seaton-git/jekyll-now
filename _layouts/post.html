@@ -6,7 +6,7 @@ layout: default
 <style type="text/css">
     header.intro-header{
         background:  {% if page.header-img %}url('{{ site.baseurl }}/{{ page.header-img }}'){% else if page.header-color %}{{ page.header-color }}{% endif %};
-        background-image: url('{{ site.baseurl }}/{% if page.header-img == null && page.header-color == null %}{{ site.header-img }}{% endif %}');
+        background-image: url('{{ site.baseurl }}/{% if page.header-img == null && page.header-color == null %}{{ site.post-img }}{% endif %}');
     }
 </style>
 <header class="intro-header" >
@@ -109,6 +109,24 @@ layout: default
                 {% endif %}
 
             </div>
+
+                <!-- Side Catalog Container -->
+                {% if page.catalog %}
+                <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                <hr class="hidden-sm hidden-xs">
+                <h5>
+                 <a class="catalog-toggle" href="#">CATALOG</a>
+                                                             </h5>
+                                                               <ul class="catalog-body"></ul>
+                                                                                          </div>
+                                                                                            </div>
+                                                                                              {% endif %}
+
 
     <!-- Sidebar Container -->
             <div class="
