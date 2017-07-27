@@ -2,6 +2,8 @@
 layout: post
 title: JavaScript中的window对象属于DOM还是BOM？
 catalog: true
+tags:
+    - JavaScript
 ---
 
 # 概念
