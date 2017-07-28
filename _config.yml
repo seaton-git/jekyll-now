@@ -70,7 +70,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "社会主义接班人"
+sidebar-about-description: "社会主义"
 sidebar-avatar: /img/avatar-seaton.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
