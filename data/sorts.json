@@ -1,0 +1,148 @@
+{
+  "sortList": [
+    {
+      "id": 0,
+      "type": 0,
+      "text": "热搜推荐",
+      "complete": 0
+    },
+    {
+      "id": 1,
+      "type": 0,
+      "text": "手机数码",
+      "complete": 0
+    },
+    {
+      "id": 2,
+      "type": 0,
+      "text": "女装内衣",
+      "complete": 0
+    },
+    {
+      "id": 3,
+      "type": 0,
+      "text": "男装内衣",
+      "complete": 0
+    },
+    {
+      "id": 4,
+      "type": 0,
+      "text": "家用电器",
+      "complete": 0
+    },
+    {
+      "id": 5,
+      "type": 0,
+      "text": "鞋靴箱包",
+      "complete": 0
+    },
+    {
+      "id": 6,
+      "type": 0,
+      "text": "运动户外",
+      "complete": 0
+    },
+    {
+      "id": 7,
+      "type": 0,
+      "text": "电脑办公",
+      "complete": 0
+    },
+    {
+      "id": 8,
+      "type": 0,
+      "text": "个护化妆",
+      "complete": 0
+    },
+    {
+      "id": 9,
+      "type": 0,
+      "text": "家具建材",
+      "complete": 0
+    },
+    {
+      "id": 10,
+      "type": 0,
+      "text": "家居家纺",
+      "complete": 0
+    },
+    {
+      "id": 11,
+      "type": 0,
+      "text": "母婴童装",
+      "complete": 0
+    },
+    {
+      "id": 12,
+      "type": 0,
+      "text": "生活美食",
+      "complete": 0
+    },
+    {
+      "id": 13,
+      "type": 0,
+      "text": "酒水饮料",
+      "complete": 0
+    },
+    {
+      "id": 14,
+      "type": 0,
+      "text": "钟表奢品",
+      "complete": 0
+    },
+    {
+      "id": 15,
+      "type": 0,
+      "text": "汽车用品",
+      "complete": 0
+    },
+    {
+      "id": 16,
+      "type": 0,
+      "text": "医药保健",
+      "complete": 0
+    },
+    {
+      "id": 17,
+      "type": 0,
+      "text": "计生情趣",
+      "complete": 0
+    },
+    {
+      "id": 18,
+      "type": 0,
+      "text": "珠宝饰品",
+      "complete": 0
+    },
+    {
+      "id": 19,
+      "type": 0,
+      "text": "生鲜果蔬",
+      "complete": 0
+    },
+    {
+      "id": 20,
+      "type": 0,
+      "text": "图书音像",
+      "complete": 0
+    },
+    {
+      "id": 21,
+      "type": 0,
+      "text": "宠物园艺",
+      "complete": 0
+    },
+    {
+      "id": 22,
+      "type": 0,
+      "text": "全球购",
+      "complete": 0
+    },
+    {
+      "id": 23,
+      "type": 0,
+      "text": "拍卖",
+      "complete": 0
+    }
+  ]
+}
