@@ -85,6 +85,6 @@ featured-condition-size: 0             # A tag will be featured if the size of i
 friends: [
     {
         title: "Seaton Blog",
-        href: "http://seaton-git.github.io"
+        href: "http://seaton.wang"
     }
 ]
