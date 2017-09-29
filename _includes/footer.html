@@ -183,13 +183,20 @@
 {% if page.catalog %}
 <script type="text/javascript">
     function generateCatalog (selector) {
-        var P = $('div.post-container'),a,n,t,l,i,c;
+        var P = $('div.post-container'),a,n,t,l,i,c,pl = 'auto';
         a = P.find('h1,h2,h3,h4,h5,h6');
         a.each(function () {
             n = $(this).prop('tagName').toLowerCase();
+            switch (n) {
+                case 'h2':
+                    pl = '2rem';
+                    break;
+                default:
+                    n != 'h1' ? pl = '3rem' : '';
+            }
             i = "#"+$(this).prop('id');
             t = $(this).text();
-            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            c = $('<a href="'+i+'" rel="nofollow" style="padding-left: '+ pl +';display: block;">'+t+'</a>');
             l = $('<li class="'+n+'_nav"></li>').append(c);
             $(selector).append(l);
         });
