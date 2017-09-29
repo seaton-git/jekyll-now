@@ -86,5 +86,9 @@ friends: [
     {
         title: "Seaton Blog",
         href: "http://seaton.wang"
+    },
+    {
+        title: "cnblogs",
+        href: "http://www.cnblogs.com/seaton/"
     }
 ]
