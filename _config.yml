@@ -82,13 +82,9 @@ featured-condition-size: 0             # A tag will be featured if the size of i
 
 
 # Friends
-friends: [
-    {
-        title: "Seaton Blog",
-        href: "http://seaton.wang"
-    },
-    {
-        title: "cnblogs",
-        href: "http://www.cnblogs.com/seaton/"
-    }
-]
+#friends: [
+#    {
+#        title: "Seaton Blog",
+#        href: "http://seaton.wang"
+#    }
+#]
