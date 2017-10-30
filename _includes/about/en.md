@@ -6,3 +6,5 @@ Java was my major in the university, but when I was touch with [Worklight](https
  doing the related projects, I fully found my strong interest in Web.
  
  Therefore, I changed my profession to Web, and focused on it completely.
+ 
+ ![](../img/wechat.jpg)
