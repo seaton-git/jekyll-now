@@ -26,5 +26,7 @@ tags:
             // 重新引入数据
         }
     }
+	
+官网有详细说明[侦听属性](https://cn.vuejs.org/v2/guide/computed.html#计算属性-vs-侦听属性)
     
 完毕
