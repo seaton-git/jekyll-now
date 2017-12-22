@@ -27,6 +27,6 @@ tags:
         }
     }
 	
-官网有详细说明[侦听属性](https://cn.vuejs.org/v2/guide/computed.html#计算属性-vs-侦听属性)
+官网有详细说明[侦听器](https://cn.vuejs.org/v2/guide/computed.html#侦听器)
     
 完毕
