@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 初试图灵机器人
+title: itchat（一）
 date:       2018-02-05
 author:     Seaton
 tags:
     - python
+    - itchat
     - 图灵机器人
 ---
 
@@ -20,7 +21,7 @@ tags:
 
 ## 安装itchat
 
-itchat是一个开源的微信个人号接口
+[itchat](http://itchat.readthedocs.io/zh/latest/)是一个开源的微信个人号接口
 
 在终端执行以下代码：
     
