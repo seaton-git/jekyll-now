@@ -48,9 +48,11 @@ tags:
         
     3). 配置
     
-     我用的是默认配置
+     我用的是默认配置（此处有坑）,如果需要配置SSL，请使用第二行命令提前修改配置
      
-        ./configure
+        ./configure  // 默认配置
+        
+        ./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module  // 开启SSL 模块
         
      4). 编译安装
      
