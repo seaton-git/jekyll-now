@@ -172,9 +172,8 @@ tags:
         ln -s /usr/local/nodejs/bin/node /usr/bin/node
         ln -s /usr/local/nodejs/bin/npm /usr/bin/npm
         
-   此处注意两点,
+   此处注意一点,
    1). `ln`,是小写的`L`，不是大写`I`，有好些朋友都搞错了
-   2). 目标路径为`/usr/bin`，看到有朋友写的是`/usr/local`，亲测无效
    
 7. 测试
 
