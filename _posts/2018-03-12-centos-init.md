@@ -3,6 +3,7 @@ layout: post
 title: CentOS6.8 + nginx + jekyll搭建自己的博客
 date:       2018-03-12
 author:     Seaton
+catalog: true
 tags:
     - centOS
     - nginx

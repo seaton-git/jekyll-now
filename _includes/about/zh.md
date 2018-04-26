@@ -24,11 +24,13 @@
 
 ## 华晟讯科技有限公司 （ 2016年11月 ~ 至今 ）
 
+### 商城小程序项目
+
+使用`mpvue`开发小程序；负责项目初始化、店铺首页、我的订单等模块开发；
 
 ### FitnessRoom小程序项目
 
 全权负责使用`wePY`开发小程序，后端服务器使用`nodeJS` + `MySQL`开发，管理端使用`Vue-cli`开发。
-
 
 ### 邀客项目 
 
@@ -36,7 +38,7 @@
 
 ### 花氧项目
 
-使用`vue-cli`开发花氧项目部分功能，以及联调接口。
+使用`vue@2.0 + vue-router + vuex + webpack`开发花氧项目部分功能，以及联调接口。
 
 ### 其他项目
 
@@ -97,9 +99,9 @@
 以下均为我熟练使用的技能
 
 - Web开发：JavaScript/Node
-- 前端框架：Vue/wePY/React
+- 前端框架：Vue/mpvue/wePY/React
 - 前端工具：Webpack/SaSS/LeSS/PhoneGap
-- 后端开发：Java/Lua(OpenResty)(熟悉)
+- 后端开发：nodeJS/Java/Lua(OpenResty)(熟悉)
 - 数据库相关：MySQL/Mongodb
 - 版本管理：Git/Svn
 - 云和开放平台：cloud/微信应用开发
