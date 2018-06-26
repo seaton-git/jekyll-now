@@ -18,7 +18,11 @@
 
 # Work experience
 
-## Successinfo Technology Co., Ltd. (November 2016 ~ present)
+## Guahao Co., LTd. ( June 2018 ~ present )
+
+
+
+## Successinfo Technology Co., Ltd. (November 2016 ~ June 2018)
 
 ### The WeChat Mini program of the mall
 
