@@ -6,7 +6,6 @@ author:     Seaton
 tags:
     - python
     - itchat
-    - 图灵机器人
 ---
 
 > 以下内容均在windows平台

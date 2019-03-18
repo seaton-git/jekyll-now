@@ -5,7 +5,7 @@ date:       2017-08-24
 author:     Seaton
 catalog: true
 tags:
-    - 脚手架
+    - 前端开发
 ---
 
 # 写在前面

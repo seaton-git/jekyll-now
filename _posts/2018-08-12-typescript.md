@@ -4,7 +4,7 @@ title: typescript初探
 date:       2018-08-12
 author:     Seaton
 tags:
-    - 代码
+    - 前端开发
 ---
 
 ## 起步

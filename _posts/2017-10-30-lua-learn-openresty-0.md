@@ -6,7 +6,6 @@ author:     Seaton
 catalog: true
 tags:
     - lua
-    - OpenResty
 ---
 
 # 前言

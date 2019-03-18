@@ -5,9 +5,7 @@ date:       2018-03-12
 author:     Seaton
 catalog: true
 tags:
-    - centOS
-    - nginx
-    - jekyll
+    - 工具
 ---
 
 # 前言

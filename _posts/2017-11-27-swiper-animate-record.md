@@ -5,8 +5,7 @@ date:       2017-11-27
 author:     Seaton
 catalog: true
 tags:
-    - swiper
-    - 微信
+    - 前端开发
 ---
 
 使用 [swiper-animate](http://www.swiper.com.cn)时，遇到几个问题，特记录。

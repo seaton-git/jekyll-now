@@ -4,7 +4,7 @@ title: 优雅code持续记录
 date:       2019-03-15
 author:     Seaton
 tags:
-    - 代码
+    - Code
 ---
 
 ## 书写规范
