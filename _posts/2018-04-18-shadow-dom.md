@@ -16,19 +16,19 @@ tags:
 > 使用`shadow-dom`
 
 1.	设置`controls`区域宽度，超过隐藏
-	
-		video::-webkit-media-controls-enclosure{ overflow: hidden; }
-        video::-webkit-media-controls-panel{ width: calc(100% + 30px); }
-
+```css
+	video::-webkit-media-controls-enclosure{ overflow: hidden; }
+	video::-webkit-media-controls-panel{ width: calc(100% + 30px); }
+```
 > 设置`video`属性
 
 1.	设置`video`的属性`controlslist`
-	
-		controlslist="nodownload"
-
+```html
+	controlslist="nodownload"
+```
 	另外也可以隐藏全屏播放按钮
-
-		controlislist="nofullscreen"
-
+```html
+	controlislist="nofullscreen"
+```
 	但是此方法有兼容问题，移动端vivo手机亲测无效
 	

@@ -23,9 +23,9 @@ tags:
 [itchat](http://itchat.readthedocs.io/zh/latest/)是一个开源的微信个人号接口
 
 在终端执行以下代码：
-    
-    pip install itchat
-
+```shell
+pip install itchat
+```
 ## 注册图灵机器人
 
 普通注册，无特殊说明，注册成功后的`key`后文会使用到
@@ -33,32 +33,32 @@ tags:
 ## 代码
 
 创建`index.py`，写入下列代码：
+```python
+import itchat, time, re
+from itchat.content import *
+import urllib2, urllib
+import json
 
-    import itchat, time, re
-    from itchat.content import *
-    import urllib2, urllib
-    import json
-    
-    @itchat.msg_register([TEXT])
-    def text_reply(msg):
-    		info = msg['Text'].encode('UTF-8')
-    		url = 'http://www.tuling123.com/openapi/api'
-    		data = {"key": "填写自己的key", "info": info, "loc": "", "userid": ""}
-    		data = urllib.urlencode(data)
-    		
-    		url2 = urllib2.Request(url, data)
-    		
-    		response = urllib2.urlopen(url2)
-    		
-    		apicontent = response.read()
-    		s = json.loads(apicontent, encoding='utf-8')
-    		print 's==', s
-    		if s['code'] == 100000:
-    			itchat.send(s['text'], msg['FromUserName'])
-    			
-    itchat.auto_login(enableCmdQR=1, hotReload=True) // enableCmdQR表示终端显示的二维码大小
-    itchat.run(debug=True)
-    
+@itchat.msg_register([TEXT])
+def text_reply(msg):
+        info = msg['Text'].encode('UTF-8')
+        url = 'http://www.tuling123.com/openapi/api'
+        data = {"key": "填写自己的key", "info": info, "loc": "", "userid": ""}
+        data = urllib.urlencode(data)
+        
+        url2 = urllib2.Request(url, data)
+        
+        response = urllib2.urlopen(url2)
+        
+        apicontent = response.read()
+        s = json.loads(apicontent, encoding='utf-8')
+        print 's==', s
+        if s['code'] == 100000:
+            itchat.send(s['text'], msg['FromUserName'])
+            
+itchat.auto_login(enableCmdQR=1, hotReload=True) // enableCmdQR表示终端显示的二维码大小
+itchat.run(debug=True)
+```  
 ## 运行
 
 双击`index.py`，启动终端，自动绘制QR，扫描即可

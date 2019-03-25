@@ -29,11 +29,13 @@ windows 7系统
 
 ## 常用命令
 
-    # 验证nginx配置文件是否正确
-      nginx -t
-    # 重启nginx服务
-      nginx -s reload
-      
+```shell
+# 验证nginx配置文件是否正确
+    nginx -t
+# 重启nginx服务
+    nginx -s reload
+ ```
+
 ## 创建工作空间
     
 在解压缩目录下新建文件夹 `workspace`（看个人习惯）
@@ -46,9 +48,10 @@ windows 7系统
     
 ## 执行命令
 
-    nginx -t
-    nginx -s reload
-    
+```shell
+nginx -t
+nginx -s reload
+```
 检测配置是否有误，重启服务
 
 ## 查看效果
