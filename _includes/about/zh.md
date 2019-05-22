@@ -13,7 +13,7 @@
  - 技术博客：[seaton.wang](https://seaton.wang)
  - Github：[seaton-git](https://github.com/seaton-git)
 
- - 期望职位：web开发工程师
+ - 期望职位：高级前端开发工程师
  - 期望薪资：面谈
  - 期望城市：上海
 
